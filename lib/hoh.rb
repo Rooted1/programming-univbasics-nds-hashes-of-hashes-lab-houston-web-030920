@@ -44,7 +44,7 @@ def naming_system
   
   
   nested_hoh = {
-    :sub_category => "Kingdom"
+    :sub_category => {:sub_category => {:sub_category => {:label => "Order"}}}
    
    
    
