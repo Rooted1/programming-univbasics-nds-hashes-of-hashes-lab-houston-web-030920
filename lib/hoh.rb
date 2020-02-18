@@ -46,7 +46,7 @@ def naming_system
   nested_hoh = {
     
    
-  # :node => {:sub_category => {"Kingdom", :sub_category => {"Phylum", :sub_category => {"Class", :label => "Order"}, :sub_category => {"Family", :label => "Genus"}, :label => "species"}}
+  :sub_category => {"Kingdom", :sub_category => {"Phylum", :sub_category => {"Class", :label => "Order"}, :sub_category => {"Family", :label => "Genus"}, :label => "species"}}
    
    
    
