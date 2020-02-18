@@ -13,18 +13,18 @@
 #     }
 #   }
 # }
-# 
+
 # PORTION_2 = {
 #   label: "Order"
 # }
-# 
+
 # PORTION_3 = {
 #   label: "Family",
 #   sub_category: {
 #     label: "Genus",
 #   }
 # }
-# 
+
 # PORTION_4 = {
 #   label: "Species",
 #   sub_category: nil
@@ -41,5 +41,37 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
+  
+  
+  nested_hoh = {
+    
+   
+  # :node => {:sub_category => {"Kingdom", :sub_category => {"Phylum", :sub_category => {"Class", :label => "Order"}, :sub_category => {"Family", :label => "Genus"}, :label => "species"}}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
 
 end
